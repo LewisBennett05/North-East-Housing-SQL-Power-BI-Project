@@ -24,7 +24,7 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 
 | Overview | Affordability | Drivers |
 |---|---|---|
-| ![Overview](powerbi/screenshots/01_overview.png) | ![Affordability](powerbi/screenshots/02_affordability.png) | ![Drivers](powerbi/screenshots/03_drivers.png) |
+| ![Overview](Screenshots/overview.png) | ![Affordability](Screenshots/Affordability.png) | ![Drivers](Screenshots/Drivers.png) |
 
 A PDF export is in [`powerbi/`](powerbi/). The `.pbix` file is included and opens in Power BI Desktop (Windows).
 
