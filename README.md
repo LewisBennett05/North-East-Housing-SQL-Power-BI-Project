@@ -14,7 +14,7 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 ## Key findings
 
 1. **[Newcastle upon Tyne]** is the most affordable area at **[5.89]** times local earnings in [2025], against **[4.28]** in **[County Durham]**.
-2. The regional median price rose from about **£[xxx]k** in 2015 to **£[xxx]k** in [year], an increase of **[xx]%**. **[District]** grew fastest (**[xx]%**) and **[District]** slowest (**[xx]%**).
+2. The regional median price rose from about **[132.5]k** in 2015 to **£[175]k** in [2025], an increase of **[132]%**. **[District]** grew fastest (**[xx]%**) and **[District]** slowest (**[xx]%**).
 3. [Something about property type or new builds, e.g. "New builds sold at a median [xx]% premium over existing homes in [District]."]
 4. [Anything surprising, e.g. a district that became less affordable, or a gap that widened.]
 
