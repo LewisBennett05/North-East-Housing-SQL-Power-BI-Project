@@ -5,17 +5,15 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 | | |
 |---|---|
 | **Question** | Where in the North East is housing most affordable, what drives price differences, and how has that changed since 2015? |
-| **Audience** | [TODO: one person and the decision it helps, e.g. "a first-time buyer comparing districts" or "a council housing planner"] |
+| **Audience** | An investor comparing price growth and entry prices across districts. |
 | **Stack** | SQL Server (T-SQL), SSMS, Power BI Desktop (DAX), Git |
-| **Scope** | 12 local authorities, sales from 2015 to [TODO: latest month] |
+| **Scope** | 12 local authorities, sales from 2015 to June 2026 |
 
 ![Overview page](Screenshots/overview.png)
 
 ## Key findings
 
-[TODO: replace each bracket with a real number from `sql/10_analysis_queries.sql` or the report. Keep 3 to 4 findings. Delete any that you can't support.]
-
-1. **[District]** is the most affordable area at **[x.x]** times local earnings in [year], against **[x.x]** in **[District]**.
+1. **[Newcastle upon Tyne]** is the most affordable area at **[5.89]** times local earnings in [2025], against **[4.28]** in **[County Durham]**.
 2. The regional median price rose from about **£[xxx]k** in 2015 to **£[xxx]k** in [year], an increase of **[xx]%**. **[District]** grew fastest (**[xx]%**) and **[District]** slowest (**[xx]%**).
 3. [Something about property type or new builds, e.g. "New builds sold at a median [xx]% premium over existing homes in [District]."]
 4. [Anything surprising, e.g. a district that became less affordable, or a gap that widened.]
