@@ -14,9 +14,9 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 ## Key findings
 
 1. **[Newcastle upon Tyne]** is the most affordable area at **[5.89]** times local earnings in [2025], against **[4.28]** in **[County Durham]**.
-2. The regional median price rose from about **[132.5]k** in 2015 to **£[175]k** in [2025], an increase of **[132]%**. **[Tyne and Wear]** grew fastest (**[134]%**) and **[Tees Valley]** slowest (**[132]%**).
-3. New builds sold at a median [0.91]% premium over existing homes in [Sunderland].
-4. [Anything surprising, e.g. a district that became less affordable, or a gap that widened.]
+2. The regional median price rose from about **[132.5]k** in 2015 to **£[175]k** in 2025, an increase of **[132]%**. **[Tyne and Wear]** grew fastest (**[134]%**) and **[Tees Valley]** slowest (**[132]%**).
+3. New builds sold at a median **[0.91]%** premium over existing homes in **[Sunderland]**.
+4. **[Northumberland)** has the highest decrease in affordability at **[-0.8]** between 2015 and 2025.
 
 ## Report pages
 
@@ -65,11 +65,10 @@ Full column definitions are in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
 | Rule | Why | Rows affected |
 |---|---|---|
-| Category B sales excluded | Repossessions and bulk transfers are not ordinary market sales | [TODO] |
-| Price below GBP 10,000 or above GBP 5,000,000 excluded | Token transfers and outliers | [TODO] |
-| Property type "other" excluded | Not comparable with houses and flats | [TODO] |
-| Duplicate registrations removed | Same address, date and price under different IDs | [TODO] |
-| **Rows kept** | | **[TODO] of [TODO] ([xx]%)** |
+| Category B sales excluded | Repossessions and bulk transfers are not ordinary market sales | [101,797] |
+| Price below GBP 10,000 or above GBP 5,000,000 excluded | Token transfers and outliers | [17] |
+| Duplicate registrations removed | Same address, date and price under different IDs | [1133] |
+| **Rows kept** | | **([80.32]%)** |
 
 *(Counts come from the audit summary at the end of `sql/04_clean_price_paid.sql`.)*
 
