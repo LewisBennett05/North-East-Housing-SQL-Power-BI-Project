@@ -122,19 +122,6 @@ Full column definitions are in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
 5. Open `powerbi/*.pbix`, point it at your `ne_housing` database, and refresh.
 
-## Repository structure
-
-```
-.
-|-- README.md
-|-- LICENSE
-|-- .gitignore
-|-- sql/                numbered scripts (see order above)
-|   `-- optional/       EPC loader for the full dataset
-|-- powerbi/            .pbix, PDF export, screenshots/
-`-- docs/               data dictionary, technical notes
-```
-
 ## Licence
 
 Code is released under the MIT licence (see `LICENSE`). Data remains under the original Open Government Licence terms of its publishers.
