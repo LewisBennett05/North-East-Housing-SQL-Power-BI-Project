@@ -26,7 +26,7 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 |---|---|---|
 | ![Overview](Screenshots/overview.png) | ![Affordability](Screenshots/Affordability.png) | ![Drivers](Screenshots/Drivers.png) |
 
-A PDF export is in [`powerbi/`](powerbi/). The `.pbix` file is included and opens in Power BI Desktop (Windows).
+A PDF export is in [`powerbi/`](PowerBI/). The `.pbix` file is included and opens in Power BI Desktop (Windows).
 
 ## Data sources
 
@@ -61,7 +61,7 @@ erDiagram
 - **Warehouse layer:** `fact_sales` (one row per sale) and `fact_affordability` (one row per district per year), with date, location, property type and tenure dimensions.
 - **Aggregates:** monthly and rolling 12-month medians are pre-computed in SQL for fast reporting.
 
-Full column definitions are in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md).
+Full column definitions are in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
 ### Cleaning decisions
 
