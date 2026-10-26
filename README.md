@@ -14,8 +14,8 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 ## Key findings
 
 1. **[Newcastle upon Tyne]** is the most affordable area at **[5.89]** times local earnings in [2025], against **[4.28]** in **[County Durham]**.
-2. The regional median price rose from about **[132.5]k** in 2015 to **£[175]k** in [2025], an increase of **[132]%**. **[District]** grew fastest (**[xx]%**) and **[District]** slowest (**[xx]%**).
-3. [Something about property type or new builds, e.g. "New builds sold at a median [xx]% premium over existing homes in [District]."]
+2. The regional median price rose from about **[132.5]k** in 2015 to **£[175]k** in [2025], an increase of **[132]%**. **[Tyne and Wear]** grew fastest (**[134]%**) and **[Tees Valley]** slowest (**[132]%**).
+3. New builds sold at a median [0.91]% premium over existing homes in [Sunderland].
 4. [Anything surprising, e.g. a district that became less affordable, or a gap that widened.]
 
 ## Report pages
@@ -33,7 +33,7 @@ A PDF export is in [`powerbi/`](PowerBI/). The `.pbix` file is included and open
 | HM Land Registry, Price Paid Data | Every residential property sale in England and Wales | One row per sale |
 | ONS, House price to residence-based earnings ratio | Median house price to earnings ratio | Local authority, annual |
 
-Contains HM Land Registry data (c) Crown copyright and database right [TODO: year]. This data is licensed under the Open Government Licence v3.0.
+Contains HM Land Registry data (c) Crown copyright and database right [2026]. This data is licensed under the Open Government Licence v3.0.
 Contains public sector information licensed under the Open Government Licence v3.0 (ONS).
 
 **Raw data is not included in this repository.** See [How to reproduce](#how-to-reproduce).
