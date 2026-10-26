@@ -9,7 +9,7 @@ An end-to-end analytics project. Raw HM Land Registry and ONS data is loaded, cl
 | **Stack** | SQL Server (T-SQL), SSMS, Power BI Desktop (DAX), Git |
 | **Scope** | 12 local authorities, sales from 2015 to [TODO: latest month] |
 
-![Overview page](powerbi/screenshots/01_overview.png)
+![Overview page](powerbi/screenshots/overview.png)
 
 ## Key findings
 
