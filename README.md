@@ -68,7 +68,7 @@ Full column definitions are in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 | Category B sales excluded | Repossessions and bulk transfers are not ordinary market sales | [101,797] |
 | Price below GBP 10,000 or above GBP 5,000,000 excluded | Token transfers and outliers | [17] |
 | Duplicate registrations removed | Same address, date and price under different IDs | [1133] |
-| **Rows kept** | | **[80.32]%** |
+| **Rows kept** | | [80.32}% |
 
 *(Counts come from the audit summary at the end of `sql/04_clean_price_paid.sql`.)*
 
